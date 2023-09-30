@@ -11,6 +11,9 @@
 ```
 $ cd app/
 $ npx create-next-app@latest .
+
+
+// $ npx create-next-app@latest . --typescript --eslint
 ```
 
 <br/>
@@ -40,3 +43,15 @@ $ http://localhost:3000
 <br/>
 
 ![Application](/img/pic-ch01-img01.png?raw=true)
+
+<br/>
+
+### 04. Exploring the Files and Folders
+
+<br/>
+
+### 05. Adding Tailwind CSS
+
+
+https://flowbite.com/docs/getting-started/next-js/
+
