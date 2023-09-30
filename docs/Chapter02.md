@@ -42,7 +42,7 @@ $ http://localhost:3000
 
 <br/>
 
-![Application](/img/pic-ch01-img01.png?raw=true)
+![Application](/img/pic-ch02-img01.png?raw=true)
 
 <br/>
 
@@ -74,6 +74,34 @@ https://flowbite.com/docs/getting-started/next-js/
 
 ### 09. Creating Those Pages
 
+<br/>
+
+![Application](/img/pic-ch02-img02.png?raw=true)
+
+<br/>
+
 http://localhost:3000/search
 
+![Application](/img/pic-ch02-img03.png?raw=true)
+
+<br/>
+
 http://localhost:3000/restaurant/restaurant
+
+![Application](/img/pic-ch02-img04.png?raw=true)
+
+<br/>
+
+### 10. Creating Those Pages
+
+<br/>
+
+http://localhost:3000/restaurant/restaurant/menu
+
+![Application](/img/pic-ch02-img05.png?raw=true)
+
+<br/>
+
+http://localhost:3000/reserve/reserve
+
+![Application](/img/pic-ch02-img06.png?raw=true)
