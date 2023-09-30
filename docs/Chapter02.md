@@ -92,7 +92,7 @@ http://localhost:3000/restaurant/restaurant
 
 <br/>
 
-### 10. Creating Those Pages
+### 10. Challenge Solution
 
 <br/>
 
@@ -105,3 +105,22 @@ http://localhost:3000/restaurant/restaurant/menu
 http://localhost:3000/reserve/reserve
 
 ![Application](/img/pic-ch02-img06.png?raw=true)
+
+<br/>
+
+### 11. The Two Ways of Navigating Between Routes
+
+<br/>
+
+### 12. The Link Component
+
+<br/>
+
+---
+
+<br/>
+
+**Marley**
+
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
