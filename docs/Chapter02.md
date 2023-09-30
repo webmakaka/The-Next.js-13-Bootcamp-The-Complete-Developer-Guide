@@ -116,6 +116,10 @@ http://localhost:3000/reserve/reserve
 
 <br/>
 
+### 13. Programmatic Navigation With the useRouter Hook
+
+<br/>
+
 ---
 
 <br/>
