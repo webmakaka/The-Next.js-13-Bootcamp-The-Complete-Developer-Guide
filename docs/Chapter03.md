@@ -18,6 +18,14 @@
 
 <br/>
 
+### 17. Server vs Client Components
+
+<br/>
+
+### 18. Exploring Which Components Should Be Client and Which Should Be Server
+
+<br/>
+
 ---
 
 <br/>
