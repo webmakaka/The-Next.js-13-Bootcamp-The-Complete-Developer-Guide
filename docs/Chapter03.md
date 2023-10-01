@@ -2,16 +2,11 @@
 
 <br/>
 
-**We develop:**  
-https://www.opentable.ca/
+## 03. Next Components Server and Client
 
 <br/>
 
-### [Environment](./docs/Environment.md)
-
-### [02. File Based Routing and Navigation](./docs/Chapter02.md)
-
-### [03. Next Components Server and Client](./docs/Chapter03.md)
+### 14. Cleaning Our Code With Components
 
 <br/>
 
