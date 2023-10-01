@@ -2,18 +2,19 @@
 
 <br/>
 
-**We develop:**  
-https://www.opentable.ca/
+### [Pull Request](https://github.com/webmakaka/The-Next.js-13-Bootcamp-The-Complete-Developer-Guide/pull/2)
 
 <br/>
 
-### [Environment](./docs/Environment.md)
+## 04. Defining Page Layouts and Head Meta
 
-### [02. File Based Routing and Navigation](./docs/Chapter02.md)
+<br/>
 
-### [03. Next Components Server and Client](./docs/Chapter03.md)
+### 19. Our Code is Not Very DRY
 
-### [04. Defining Page Layouts and Head Meta](./docs/Chapter04.md)
+<br/>
+
+### 20. Placing Universally Used Components in the Root Layout
 
 <br/>
 
