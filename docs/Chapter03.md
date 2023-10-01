@@ -10,6 +10,14 @@
 
 <br/>
 
+### 15. Refactoring Our Pages
+
+<br/>
+
+### 16. Some More Refactoring
+
+<br/>
+
 ---
 
 <br/>
