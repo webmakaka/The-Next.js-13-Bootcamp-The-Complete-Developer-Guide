@@ -2,16 +2,27 @@
 
 <br/>
 
-**We develop:**  
-https://www.opentable.ca/
+## 03. Next Components Server and Client
 
 <br/>
 
-### [Environment](./docs/Environment.md)
+### 14. Cleaning Our Code With Components
 
-### [02. File Based Routing and Navigation](./docs/Chapter02.md)
+<br/>
 
-### [03. Next Components Server and Client](./docs/Chapter03.md)
+### 15. Refactoring Our Pages
+
+<br/>
+
+### 16. Some More Refactoring
+
+<br/>
+
+### 17. Server vs Client Components
+
+<br/>
+
+### 18. Exploring Which Components Should Be Client and Which Should Be Server
 
 <br/>
 
