@@ -13,6 +13,8 @@ https://www.opentable.ca/
 
 ### [03. Next Components Server and Client](./docs/Chapter03.md)
 
+### [04. Defining Page Layouts and Head Meta](./docs/Chapter04.md)
+
 <br/>
 
 ---
