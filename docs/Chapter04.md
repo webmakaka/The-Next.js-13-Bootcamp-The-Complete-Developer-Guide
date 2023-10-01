@@ -22,6 +22,10 @@
 
 <br/>
 
+### 22. Updating the Head Meta for Each Page
+
+<br/>
+
 ---
 
 <br/>
