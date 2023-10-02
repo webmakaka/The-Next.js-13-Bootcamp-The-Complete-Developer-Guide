@@ -91,6 +91,14 @@ http://localhost:3000/api/seed
 
 <br/>
 
+### 34. Fetching the Restaurants Menu
+
+<br/>
+
+![Application](/img/pic-ch05-img06.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
