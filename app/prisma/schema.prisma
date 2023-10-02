@@ -14,12 +14,13 @@ model Restaurant {
   id Int @id @default(autoincrement())
   name String 
   main_image String
+  images String[]
   description String
   open_time String
   close_time String
   slug String @unique
   price PRICE
-  items Items[]
+  items Item[]
   location_id Int
   location Location @relation(fields: [location_id], references: [id])
   cuisine_id Int
@@ -28,11 +29,10 @@ model Restaurant {
   upated_at DateTime @updatedAt
 }
 
-model Items {
+model Item {
   id Int @id @default(autoincrement())
   name String
   price String
-  images String[]
   description String
   restaurant_id Int
   restaurant Restaurant @relation(fields: [restaurant_id], references: [id])

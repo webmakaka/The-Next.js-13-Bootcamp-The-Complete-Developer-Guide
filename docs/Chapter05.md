@@ -41,6 +41,20 @@ $ npx prisma db push
 
 <br/>
 
+### 26. Seeding Our Database
+
+http://localhost:3000/api/seed
+
+<br/>
+
+![Application](/img/pic-ch05-img02.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-ch05-img03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
