@@ -55,6 +55,26 @@ http://localhost:3000/api/seed
 
 <br/>
 
+### 27. How We Fetch Data in Server Components
+
+<br/>
+
+### 28. Fetching Data in a Server Component
+
+<br/>
+
+### 29. A Little TypeScript Lesson
+
+<br/>
+
+### 30. Rendering the Fetched Data
+
+<br/>
+
+![Application](/img/pic-ch05-img04.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
