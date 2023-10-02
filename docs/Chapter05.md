@@ -75,6 +75,22 @@ http://localhost:3000/api/seed
 
 <br/>
 
+### 31. A Common Error You Might Encounter
+
+<br/>
+
+### 32. Fetching a Restaurant By Slug
+
+<br/>
+
+### 33. Populating the Data in the Restaurant Page
+
+<br/>
+
+![Application](/img/pic-ch05-img05.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
