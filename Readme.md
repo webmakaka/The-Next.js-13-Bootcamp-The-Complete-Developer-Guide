@@ -15,6 +15,8 @@ https://www.opentable.ca/
 
 ### [04. Defining Page Layouts and Head Meta](./docs/Chapter04.md)
 
+### [05. Fetching Data in Server Components](./docs/Chapter05.md)
+
 <br/>
 
 ---
