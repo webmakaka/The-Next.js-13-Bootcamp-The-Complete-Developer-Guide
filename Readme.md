@@ -17,6 +17,8 @@ https://www.opentable.ca/
 
 ### [05. Fetching Data in Server Components](./docs/Chapter05.md)
 
+### [06. Time to Get Your Hands Dirty](./docs/Chapter06.md)
+
 <br/>
 
 ---

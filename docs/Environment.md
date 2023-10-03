@@ -3,25 +3,25 @@
 <br/>
 
 ```
-$  lsb_release -a
+$ lsb_release -a
 No LSB modules are available.
 Distributor ID:	Ubuntu
-Description:	Ubuntu 20.04.6 LTS
-Release:	20.04
-Codename:	focal
+Description:	Ubuntu 22.04.3 LTS
+Release:	22.04
+Codename:	jammy
 ```
 
 <br/>
 
 ```
 $ volta --version
-1.1.0
+1.1.1
 ```
 
 <br/>
 
 ```
-$ volta install node@18 npm@9 yarn@3
+$ volta install node yarn npm
 ```
 
 <br/>
@@ -35,14 +35,14 @@ v18.18.0
 
 ```
 $ npm -v
-9.8.1
+10.2.0
 ```
 
 <br/>
 
 ```
-$ yarn -v
-3.6.3
+$  yarn -v
+4.0.0-rc.52
 ```
 
 <br/>
