@@ -70,9 +70,30 @@
 
 <br/>
 
+### 49. Challenge 8 Fetching Reviews Data
+
+<br/>
+
 ```
 $ npx prisma db push
 ```
+
+<br/>
+
+```
+$ rm -rf node_modules/
+$ npm install
+```
+
+<br/>
+
+```
+http://localhost:3000/api/seed
+```
+
+<br/>
+
+### 50. Solution for Challenge 8
 
 <br/>
 

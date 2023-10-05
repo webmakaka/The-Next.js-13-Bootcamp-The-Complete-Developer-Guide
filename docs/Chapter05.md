@@ -43,7 +43,9 @@ $ npx prisma db push
 
 ### 26. Seeding Our Database
 
+```
 http://localhost:3000/api/seed
+```
 
 <br/>
 
