@@ -62,6 +62,20 @@
 
 <br/>
 
+### 47. Challenge 7 Defining the User and Review Model
+
+<br/>
+
+### 48. Solution for Challenge 7
+
+<br/>
+
+```
+$ npx prisma db push
+```
+
+<br/>
+
 ---
 
 <br/>
