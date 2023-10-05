@@ -54,6 +54,14 @@
 
 <br/>
 
+### 45. Challenge 6 Filtering By Query Params
+
+<br/>
+
+### 46. Solution for Challenge 6
+
+<br/>
+
 ---
 
 <br/>
