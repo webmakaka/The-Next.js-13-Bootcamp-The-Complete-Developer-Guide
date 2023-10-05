@@ -1,4 +1,4 @@
-# [Laith Harb] The Next.js 13 Bootcamp - The Complete Developer Guide [ENG, 2023]
+# [Video Course][Laith Harb] The Next.js 13 Bootcamp - The Complete Developer Guide [ENG, 2023]
 
 <br/>
 

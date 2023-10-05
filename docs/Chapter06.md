@@ -34,6 +34,18 @@
 
 <br/>
 
+![Application](/img/pic-ch06-img01.png?raw=true)
+
+<br/>
+
+### 41. Challenge 4 Fetching Data for Side NavBar
+
+<br/>
+
+### 42. Solution for Challenge 4
+
+<br/>
+
 ---
 
 <br/>
