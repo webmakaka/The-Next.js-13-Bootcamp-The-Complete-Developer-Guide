@@ -16,6 +16,9 @@
 
 ### 24. Connecting to a Postgres Database
 
+// I Do not recommend even try
+// Too much problems with connection
+
 https://supabase.com/
 
 <br/>
@@ -43,7 +46,9 @@ $ npx prisma db push
 
 ### 26. Seeding Our Database
 
+```
 http://localhost:3000/api/seed
+```
 
 <br/>
 

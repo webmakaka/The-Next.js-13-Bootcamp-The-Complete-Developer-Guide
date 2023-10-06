@@ -1,4 +1,4 @@
-# [Laith Harb] The Next.js 13 Bootcamp - The Complete Developer Guide [ENG, 2023]
+# [Video Course][Laith Harb] The Next.js 13 Bootcamp - The Complete Developer Guide [ENG, 2023]
 
 <br/>
 
@@ -16,6 +16,8 @@ https://www.opentable.ca/
 ### [04. Defining Page Layouts and Head Meta](./docs/Chapter04.md)
 
 ### [05. Fetching Data in Server Components](./docs/Chapter05.md)
+
+### [06. Time to Get Your Hands Dirty](./docs/Chapter06.md)
 
 <br/>
 
