@@ -16,6 +16,9 @@
 
 ### 24. Connecting to a Postgres Database
 
+// I Do not recommend even try
+// Too much problems with connection
+
 https://supabase.com/
 
 <br/>

@@ -97,6 +97,10 @@ http://localhost:3000/api/seed
 
 <br/>
 
+### 51. Adding a Stars Component
+
+<br/>
+
 ---
 
 <br/>
