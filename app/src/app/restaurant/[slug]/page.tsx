@@ -7,6 +7,7 @@ import RestaurantReviews from '@/app/restaurant/[slug]/components/RestaurantRevi
 import RestaurantTitle from '@/app/restaurant/[slug]/components/RestaurantTitle';
 import { PrismaClient, Review } from '@prisma/client';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 
 export const metadata: Metadata = {
   title: 'Milestones Grill (Toronto) | OpenTable',
@@ -40,7 +41,7 @@ const fetchRestaurantBySlug = async (slug: string): Promise<Restaurant> => {
   });
 
   if (!restaurant) {
-    throw new Error('Cannot find a restaurant');
+    notFound();
   }
 
   return restaurant;
