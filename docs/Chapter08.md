@@ -72,7 +72,7 @@ $ npm install validator types@validator
 $ curl \
     --data '{
       "firstName":"Marley",
-      "lastName":"marley",
+      "lastName":"Marley",
       "email":"marley@example.com",
       "phone":"7777777777",
       "city":"Moscow",
@@ -102,7 +102,7 @@ $ npx prisma db push
 $ curl \
     --data '{
       "firstName":"Marley",
-      "lastName":"marley",
+      "lastName":"Marley",
       "email":"josh@hotmail.com",
       "phone":"7777777777",
       "city":"Moscow",
@@ -133,6 +133,30 @@ $ curl \
 
 ```
 $ npm install bcrypt @types/bcrypt
+```
+
+<br/>
+
+### 68. Creating a User
+
+<br/>
+
+```
+// SIGN UP
+// POST
+// OK!
+$ curl \
+    --data '{
+      "firstName":"Marley",
+      "lastName":"Marley",
+      "email":"marley@example.com",
+      "phone":"7777777777",
+      "city":"Moscow",
+      "password":"pa55W0rd!"}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/auth/signup \
+    | jq
 ```
 
 <br/>
