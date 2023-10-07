@@ -22,6 +22,14 @@
 
 <br/>
 
+### 56. Handling Error States
+
+<br/>
+
+![Application](/img/pic-ch07-img01.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
