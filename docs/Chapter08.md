@@ -74,7 +74,7 @@ $ curl \
     --data '{
       "firstName":"Marley",
       "lastName":"marley",
-      "email":"marley1@example.com",
+      "email":"marley@example.com",
       "phone":"7777777777",
       "city":"Moscow",
       "password":"pa55W0rd!"}' \
@@ -82,6 +82,46 @@ $ curl \
     --request POST \
     --url http://localhost:3000/api/auth/signup \
     | jq
+```
+
+<br/>
+
+### 65. Validating That the Users Doesn't Already Have an Account
+
+<br/>
+
+```
+$ npx prisma db push
+```
+
+<br/>
+
+```
+// SIGN UP
+// POST
+// FAIL!
+$ curl \
+    --data '{
+      "firstName":"Marley",
+      "lastName":"marley",
+      "email":"josh@hotmail.com",
+      "phone":"7777777777",
+      "city":"Moscow",
+      "password":"pa55W0rd!"}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/auth/signup \
+    | jq
+```
+
+<br/>
+
+**response:**
+
+```
+{
+  "errorMessage": "Email is associated with another account"
+}
 ```
 
 <br/>
