@@ -57,6 +57,35 @@ https://mui.com/material-ui/react-modal/
 
 <br/>
 
+### 64. Validating the Users Input
+
+```
+$ npm install validator
+$ npm install types@validator
+```
+
+<br/>
+
+```
+// SIGN UP
+// POST
+// OK!
+$ curl \
+    --data '{
+      "firstName":"Marley",
+      "lastName":"marley",
+      "email":"marley1@example.com",
+      "phone":"7777777777",
+      "city":"Moscow",
+      "password":"pa55W0rd!"}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/auth/signup \
+    | jq
+```
+
+<br/>
+
 ---
 
 <br/>
