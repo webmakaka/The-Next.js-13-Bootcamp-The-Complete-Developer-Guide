@@ -161,6 +161,14 @@ $ curl \
 
 <br/>
 
+### 69. Creating and Sending a JSON Web Token
+
+```
+$ npm install jose
+```
+
+<br/>
+
 ---
 
 <br/>
