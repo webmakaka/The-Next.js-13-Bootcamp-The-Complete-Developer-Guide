@@ -37,6 +37,14 @@ https://mui.com/material-ui/react-modal/
 
 <br/>
 
+### 61. Completing the Modal Functionality
+
+<br/>
+
+![Application](/img/pic-ch08-img03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
