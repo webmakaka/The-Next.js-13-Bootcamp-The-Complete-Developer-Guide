@@ -169,6 +169,34 @@ $ npm install jose
 
 <br/>
 
+### 70. Implementing the Sign in Endpoint
+
+<br/>
+
+```
+// SIGN IN
+// POST
+// OK!
+$ curl \
+    --data '{
+      "email":"marley@example.com",
+      "password":"pa55W0rd!"}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/auth/signin \
+    | jq
+```
+
+**response:**
+
+```
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Im1hcmxleUBleGFtcGxlLmNvbSIsImV4cCI6MTY5Njc5MzU4Mn0.I5s5UnNi3quXvvd6Kob28sNm6jX9NNxg-TGFV2FTdKs"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
