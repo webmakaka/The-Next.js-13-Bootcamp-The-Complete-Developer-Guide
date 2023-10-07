@@ -197,6 +197,44 @@ $ curl \
 
 <br/>
 
+### 71. Identifying Users With Json Web Token
+
+```
+$ npm install jsonwebtoken @types/jsonwebtoken
+```
+
+<br/>
+
+```
+$ export AUTH_TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Im1hcmxleUBleGFtcGxlLmNvbSIsImV4cCI6MTY5Njc5MzU4Mn0.I5s5UnNi3quXvvd6Kob28sNm6jX9NNxg-TGFV2FTdKs
+
+// Me
+// GET
+// OK!
+$ curl \
+ --header "Content-Type: application/json" \
+ --header "Authorization: Bearer ${AUTH_TOKEN}" \
+ --request GET \
+ --url http://localhost:3000/api/auth/me \
+ | jq
+```
+
+**response:**
+
+```
+{
+  "user": {
+    "id": 5,
+    "first_name": "Marley",
+    "last_name": "marley",
+    "city": "Moscow",
+    "phone": "7777777777"
+  }
+}
+```
+
+<br/>
+
 ---
 
 <br/>
