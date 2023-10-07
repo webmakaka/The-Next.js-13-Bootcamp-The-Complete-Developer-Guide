@@ -14,6 +14,12 @@ Codename:	jammy
 <br/>
 
 ```
+$ sudo apt install -y curl jq
+```
+
+<br/>
+
+```
 $ volta --version
 1.1.1
 ```
