@@ -105,6 +105,10 @@ http://localhost:3000/api/seed
 
 <br/>
 
+![Application](/img/pic-ch06-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
