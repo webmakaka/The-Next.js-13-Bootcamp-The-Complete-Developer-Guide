@@ -60,8 +60,7 @@ https://mui.com/material-ui/react-modal/
 ### 64. Validating the Users Input
 
 ```
-$ npm install validator
-$ npm install types@validator
+$ npm install validator types@validator
 ```
 
 <br/>
@@ -122,6 +121,18 @@ $ curl \
 {
   "errorMessage": "Email is associated with another account"
 }
+```
+
+<br/>
+
+### 66. Exploring Password Storage Solutions
+
+<br/>
+
+### 67. Hashing Our Password
+
+```
+$ npm install bcrypt @types/bcrypt
 ```
 
 <br/>
