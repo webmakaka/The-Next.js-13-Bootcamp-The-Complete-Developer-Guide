@@ -7,6 +7,15 @@ https://www.opentable.ca/
 
 <br/>
 
+**Original src:**
+https://github.com/harblaith7/Next13-Udemy-Course/
+
+<br/>
+
+## Development steps
+
+<br/>
+
 ### [Environment](./docs/Environment.md)
 
 ### [02. File Based Routing and Navigation](./docs/Chapter02.md)
@@ -18,6 +27,8 @@ https://www.opentable.ca/
 ### [05. Fetching Data in Server Components](./docs/Chapter05.md)
 
 ### [06. Time to Get Your Hands Dirty](./docs/Chapter06.md)
+
+### [07. Handling Loading and Error States](./docs/Chapter07.md)
 
 <br/>
 
