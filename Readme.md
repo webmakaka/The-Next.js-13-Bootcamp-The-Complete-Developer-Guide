@@ -30,6 +30,8 @@ https://github.com/harblaith7/Next13-Udemy-Course/
 
 ### [07. Handling Loading and Error States](./docs/Chapter07.md)
 
+### [08. Implementing Authentication](./docs/Chapter08.md)
+
 <br/>
 
 ---

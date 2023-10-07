@@ -1,3 +1,5 @@
+'use client';
+
 import { calculateReviewRatingAverage } from '@/app/utils/calculateReviewRatingAverage';
 import { Review } from '@prisma/client';
 import Image from 'next/image';
