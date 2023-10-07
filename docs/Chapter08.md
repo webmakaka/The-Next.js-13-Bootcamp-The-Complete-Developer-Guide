@@ -29,6 +29,14 @@ https://mui.com/material-ui/react-modal/
 
 <br/>
 
+### 60. Adding the Modal Content
+
+<br/>
+
+![Application](/img/pic-ch08-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
