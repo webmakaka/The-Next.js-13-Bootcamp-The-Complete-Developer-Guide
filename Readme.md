@@ -32,6 +32,8 @@ https://github.com/harblaith7/Next13-Udemy-Course/
 
 ### [08. Implementing Authentication](./docs/Chapter08.md)
 
+### [09. Global State With Context API](./docs/Chapter09.md)
+
 <br/>
 
 ---
