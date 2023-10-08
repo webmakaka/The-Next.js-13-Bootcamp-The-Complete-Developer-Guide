@@ -60,6 +60,10 @@ $ npm install cookies-next
 
 <br/>
 
+### 80. Doing the Same Thing For the Signup Function
+
+<br/>
+
 ---
 
 <br/>
