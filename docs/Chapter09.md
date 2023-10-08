@@ -18,7 +18,7 @@
 
 <br/>
 
-### c
+### 74. Creating a Custom useAuth Hook
 
 ```
 $ npm install axios
@@ -27,6 +27,10 @@ $ npm install axios
 <br/>
 
 ### 75. Discussing the Authentication State
+
+<br/>
+
+### 76. Creating a AuthContext Component
 
 <br/>
 
