@@ -48,6 +48,18 @@ https://mui.com/material-ui/react-progress/#circular
 
 <br/>
 
+### 79. Saving the JWT to Our Browsers Cookie
+
+```
+$ npm install cookies-next
+```
+
+<br/>
+
+![Application](/img/pic-ch09-img03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
