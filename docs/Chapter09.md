@@ -64,6 +64,14 @@ $ npm install cookies-next
 
 <br/>
 
+### 81. Persisting an Auth State
+
+<br/>
+
+### 82. Fixing the Issue Sorry
+
+<br/>
+
 ---
 
 <br/>
