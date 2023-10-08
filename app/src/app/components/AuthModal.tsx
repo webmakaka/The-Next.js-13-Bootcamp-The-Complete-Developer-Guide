@@ -2,7 +2,7 @@
 
 import AuthModalInputs from '@/app/components/AuthModalInputs';
 import { AuthenticationContext } from '@/app/context/AuthContext';
-import { CircularProgress } from '@mui/material';
+import { Alert, AlertTitle, CircularProgress } from '@mui/material';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { useContext, useEffect, useState } from 'react';
@@ -98,6 +98,13 @@ export default function AuthModal({ isSignin }: { isSignin: boolean }) {
             </div>
           ) : (
             <div className="p-2 h-[600px]">
+              {error ? (
+                <Alert severity="error" className="mb-4">
+                  <AlertTitle>Error</AlertTitle>
+                  {error}
+                </Alert>
+              ) : null}
+
               <div className="uppercase font-bold text-center pb-2 border-b mb-2">
                 <p className="text-sm">
                   {renderContent('Sign In', 'Create Account')}

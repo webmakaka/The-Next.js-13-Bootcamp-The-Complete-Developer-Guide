@@ -40,6 +40,14 @@ https://mui.com/material-ui/react-progress/#circular
 
 <br/>
 
+### 78. Handling the Error State
+
+<br/>
+
+![Application](/img/pic-ch09-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
