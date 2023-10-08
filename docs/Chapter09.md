@@ -72,6 +72,14 @@ $ npm install cookies-next
 
 <br/>
 
+### 83. Conditionally Rendering UI Based on the Auth State
+
+<br/>
+
+### 84. Implementing the Logout Functionaility
+
+<br/>
+
 ---
 
 <br/>
