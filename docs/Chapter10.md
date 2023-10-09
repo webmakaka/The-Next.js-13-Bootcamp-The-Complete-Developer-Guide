@@ -18,7 +18,19 @@
 
 <br/>
 
+### 88. Rendering a DatePicker Component
+
+<br/>
+
 ### 87. Rendering the Party Size Options
+
+```
+$ npm install react-datepicker @types/react-datepicker
+```
+
+<br/>
+
+![Application](/img/pic-ch10-img01.png?raw=true)
 
 <br/>
 
