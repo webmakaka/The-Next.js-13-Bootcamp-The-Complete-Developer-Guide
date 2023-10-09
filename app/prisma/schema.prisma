@@ -26,7 +26,7 @@ model Restaurant {
   bookings    Booking[]
   tables      Table[]
   created_at  DateTime  @default(now())
-  upated_at   DateTime  @updatedAt
+  updated_at  DateTime  @updatedAt
 }
 
 model Item {
@@ -37,7 +37,7 @@ model Item {
   restaurant_id Int
   restaurant    Restaurant @relation(fields: [restaurant_id], references: [id])
   created_at    DateTime   @default(now())
-  upated_at     DateTime   @updatedAt
+  updated_at    DateTime   @updatedAt
 }
 
 model Location {
@@ -45,7 +45,7 @@ model Location {
   name        String
   restaurants Restaurant[]
   created_at  DateTime     @default(now())
-  upated_at   DateTime     @updatedAt
+  updated_at  DateTime     @updatedAt
 }
 
 model Cuisine {
@@ -53,7 +53,7 @@ model Cuisine {
   name        String
   restaurants Restaurant[]
   created_at  DateTime     @default(now())
-  upated_at   DateTime     @updatedAt
+  updated_at  DateTime     @updatedAt
 }
 
 model User {
@@ -66,7 +66,7 @@ model User {
   phone      String
   reviews    Review[]
   created_at DateTime @default(now())
-  upated_at  DateTime @updatedAt
+  updated_at DateTime @updatedAt
 }
 
 model Review {
@@ -95,7 +95,7 @@ model Booking {
   restaurant        Restaurant         @relation(fields: [restaurant_id], references: [id])
   tables            BookingsOnTables[]
   created_at        DateTime           @default(now())
-  upated_at         DateTime           @updatedAt
+  updated_at        DateTime           @updatedAt
 }
 
 model Table {
@@ -105,7 +105,7 @@ model Table {
   restaurant    Restaurant         @relation(fields: [restaurant_id], references: [id])
   bookings      BookingsOnTables[]
   created_at    DateTime           @default(now())
-  upated_at     DateTime           @updatedAt
+  updated_at    DateTime           @updatedAt
 }
 
 model BookingsOnTables {
@@ -114,7 +114,7 @@ model BookingsOnTables {
   table_id   Int
   table      Table    @relation(fields: [table_id], references: [id])
   created_at DateTime @default(now())
-  upated_at  DateTime @updatedAt
+  updated_at DateTime @updatedAt
 
   @@id([booking_id, table_id])
 }
