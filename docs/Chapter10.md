@@ -60,6 +60,12 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 94. Step 1 Determining the Search Times
+
+http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availability?day=2023-01-01&time=20:00:00.000Z&partySize=4
+
+<br/>
+
 ---
 
 <br/>
