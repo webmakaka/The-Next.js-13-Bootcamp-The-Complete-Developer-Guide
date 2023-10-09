@@ -7,7 +7,7 @@ https://www.opentable.ca/
 
 <br/>
 
-**Original src:**
+**Original src:**  
 https://github.com/harblaith7/Next13-Udemy-Course/
 
 <br/>
@@ -33,6 +33,8 @@ https://github.com/harblaith7/Next13-Udemy-Course/
 ### [08. Implementing Authentication](./docs/Chapter08.md)
 
 ### [09. Global State With Context API](./docs/Chapter09.md)
+
+### [10. Building an Availability System](./docs/Chapter10.md)
 
 <br/>
 
