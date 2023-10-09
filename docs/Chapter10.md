@@ -38,6 +38,18 @@ $ npx prisma studio
 
 <br/>
 
+### 90. Understanding Many to Many Relationships
+
+<br/>
+
+### 91. Defining Our New Models
+
+```
+$ npx prisma db push
+```
+
+<br/>
+
 ---
 
 <br/>
