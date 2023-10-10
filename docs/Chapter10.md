@@ -500,6 +500,10 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 102. Building a useAvailabilities Hook
+
+<br/>
+
 ---
 
 <br/>
