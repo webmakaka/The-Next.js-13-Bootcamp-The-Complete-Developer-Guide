@@ -4,7 +4,9 @@ import { useState } from 'react';
 export default function useAvailabilities() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<
+    { time: string; available: boolean }[] | null
+  >(null);
 
   const fetchAvailabilities = async ({
     slug,
@@ -17,11 +19,6 @@ export default function useAvailabilities() {
     day: string;
     time: string;
   }) => {
-    console.log(slug);
-    console.log(partySize);
-    console.log(day);
-    console.log(time);
-    return;
     setLoading(true);
 
     try {

@@ -508,6 +508,14 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 104. Rendering the Available Time Options
+
+<br/>
+
+![Application](/img/pic-ch10-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

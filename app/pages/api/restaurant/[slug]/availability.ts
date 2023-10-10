@@ -31,8 +31,6 @@ export default async function handler(
     });
   }
 
-  console.log(searchTimes[searchTimes.length - 1]);
-
   const bookings = await prisma.booking.findMany({
     where: {
       booking_time: {
@@ -118,12 +116,5 @@ export default async function handler(
       return timeIsAfterOpeningHour && timeIsBeforeClosingHour;
     });
 
-  return res.json({
-    searchTimes,
-    bookings,
-    bookingTablesObj,
-    tables,
-    searchTimesWithTables,
-    availabilities,
-  });
+  return res.json(availabilities);
 }
