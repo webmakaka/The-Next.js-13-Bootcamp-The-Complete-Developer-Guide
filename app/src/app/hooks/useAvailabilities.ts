@@ -17,6 +17,11 @@ export default function useAvailabilities() {
     day: string;
     time: string;
   }) => {
+    console.log(slug);
+    console.log(partySize);
+    console.log(day);
+    console.log(time);
+    return;
     setLoading(true);
 
     try {

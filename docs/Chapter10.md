@@ -504,6 +504,10 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 103. Storing the Reservation Criteria in State
+
+<br/>
+
 ---
 
 <br/>
