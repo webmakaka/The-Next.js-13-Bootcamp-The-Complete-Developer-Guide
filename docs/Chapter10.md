@@ -516,6 +516,14 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 105. Converting the Time to a Displayable Time
+
+<br/>
+
+![Application](/img/pic-ch10-img03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

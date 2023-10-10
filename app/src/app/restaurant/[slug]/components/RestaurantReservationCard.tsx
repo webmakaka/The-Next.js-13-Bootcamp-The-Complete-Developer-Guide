@@ -2,6 +2,7 @@
 
 import { partySize as partySizes, times } from '@/app/data';
 import useAvailabilities from '@/app/hooks/useAvailabilities';
+import { convertToDisplayTime } from '@/app/utils/convertToDisplayTime';
 import { CircularProgress } from '@mui/material';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -127,11 +128,13 @@ export default function RestaurantReservationCard({
                   href={`/reserve/${slug}?date=${day}T${time.time}&partySize=${partySize}`}
                   className="bg-red-600 cursor-pointer p-2 w-24 text-center text-white mb-3 rounded mr-3"
                 >
-                  <p className="text-sm font-bold">{time.time}</p>
+                  <p className="text-sm font-bold">
+                    {convertToDisplayTime(time.time)}
+                  </p>
                 </Link>
               ) : (
                 <p className="bg-gray-300 p-2 w-24 mb-3 rounded mr-3">
-                  {time.time}
+                  {convertToDisplayTime(time.time)}
                 </p>
               );
             })}
