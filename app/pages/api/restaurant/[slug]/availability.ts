@@ -76,5 +76,19 @@ export default async function handler(
 
   const tables = restaurant.tables;
 
-  return res.json({ searchTimes, bookings, bookingTablesObj, tables });
+  const searchTimesWithTables = searchTimes.map((searchTime) => {
+    return {
+      date: new Date(`${day}T${searchTime}`),
+      time: searchTime,
+      tables,
+    };
+  });
+
+  return res.json({
+    searchTimes,
+    bookings,
+    bookingTablesObj,
+    tables,
+    searchTimesWithTables,
+  });
 }
