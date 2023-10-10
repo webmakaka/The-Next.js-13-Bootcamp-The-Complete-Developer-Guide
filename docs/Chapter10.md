@@ -458,6 +458,44 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 100. Step 7 Determining the Availability
+
+<br/>
+
+http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availability?day=2023-10-11&time=14:00:00.000Z&partySize=8
+
+<br/>
+
+**response:**
+
+```
+***
+  "availabilities": [
+    {
+      "time": "13:00:00.000Z",
+      "available": true
+    },
+    {
+      "time": "13:30:00.000Z",
+      "available": true
+    },
+    {
+      "time": "14:00:00.000Z",
+      "available": false
+    },
+    {
+      "time": "14:30:00.000Z",
+      "available": true
+    },
+    {
+      "time": "15:00:00.000Z",
+      "available": true
+    }
+  ]
+```
+
+<br/>
+
 ---
 
 <br/>
