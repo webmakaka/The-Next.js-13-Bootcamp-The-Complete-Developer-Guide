@@ -454,6 +454,10 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 99. Step 6 Filtering Out the Booked Tables
+
+<br/>
+
 ---
 
 <br/>
