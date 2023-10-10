@@ -142,6 +142,49 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 96. Step 3 Compressing the Booking
+
+<br/>
+
+http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availability?day=2023-10-11&time=14:00:00.000Z&partySize=4
+
+<br/>
+
+**response:**
+
+```
+{
+  "searchTimes": [
+    "13:00:00.000Z",
+    "13:30:00.000Z",
+    "14:00:00.000Z",
+    "14:30:00.000Z",
+    "15:00:00.000Z"
+  ],
+  "bookings": [
+    {
+      "number_of_people": 4,
+      "booking_time": "2023-10-11T14:00:00.000Z",
+      "tables": [
+        {
+          "booking_id": 1,
+          "table_id": 1,
+          "created_at": "2023-10-10T00:00:00.000Z",
+          "upated_at": "2023-10-09T22:27:23.264Z"
+        }
+      ]
+    }
+  ],
+  "bookingTablesObj": {
+    "2023-10-11T14:00:00.000Z": {
+      "1": true
+    }
+  }
+}
+```
+
+<br/>
+
 ---
 
 <br/>
