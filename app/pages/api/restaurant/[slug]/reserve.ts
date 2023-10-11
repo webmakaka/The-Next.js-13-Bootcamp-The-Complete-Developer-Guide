@@ -80,7 +80,34 @@ export default async function handler(
     }
   });
 
+  const tablesToBooks: number[] = [];
+  let seatsRemaining = parseInt(partySize);
+
+  while (seatsRemaining > 0) {
+    if (seatsRemaining >= 3) {
+      if (tablesCount[4].length) {
+        tablesToBooks.push(tablesCount[4][0]);
+        tablesCount[4].shift();
+        seatsRemaining = seatsRemaining - 4;
+      } else {
+        tablesToBooks.push(tablesCount[2][0]);
+        tablesCount[2].shift();
+        seatsRemaining = seatsRemaining - 2;
+      }
+    } else {
+      if (tablesCount[2].length) {
+        tablesToBooks.push(tablesCount[2][0]);
+        tablesCount[2].shift();
+        seatsRemaining = seatsRemaining - 2;
+      } else {
+        tablesToBooks.push(tablesCount[4][0]);
+        tablesCount[4].shift();
+        seatsRemaining = seatsRemaining - 4;
+      }
+    }
+  }
+
   return res.json({
-    tablesCount,
+    tablesToBooks,
   });
 }

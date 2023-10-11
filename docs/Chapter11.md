@@ -124,6 +124,26 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/reserve?d
 
 <br/>
 
+### 111. Step 4 Determine the Tables to Book
+
+<br/>
+
+http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/reserve?day=2023-10-11&time=18:00:00.000Z&partySize=8
+
+<br/>
+
+**response:**
+
+<br/>
+
+```json
+{
+  "tablesToBooks": [1, 2]
+}
+```
+
+<br/>
+
 ---
 
 <br/>
