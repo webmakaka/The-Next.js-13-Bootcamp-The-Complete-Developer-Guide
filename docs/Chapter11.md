@@ -51,6 +51,10 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/reserve?d
 
 <br/>
 
+### 108. Step 20 Extracting the Table Availability Logic Into its Own Function
+
+<br/>
+
 ---
 
 <br/>
