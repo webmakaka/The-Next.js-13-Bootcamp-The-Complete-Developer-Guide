@@ -101,6 +101,29 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/reserve?d
 
 <br/>
 
+### 110. Step 3 Count the Tables Based on Seats
+
+<br/>
+
+http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/reserve?day=2023-10-11&time=18:00:00.000Z&partySize=8
+
+<br/>
+
+**response:**
+
+<br/>
+
+```json
+{
+  "tablesCount": {
+    "2": [3],
+    "4": [1, 2]
+  }
+}
+```
+
+<br/>
+
 ---
 
 <br/>
