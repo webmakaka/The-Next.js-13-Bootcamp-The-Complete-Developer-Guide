@@ -18,6 +18,8 @@ https://github.com/harblaith7/Next13-Udemy-Course/
 
 ### [Environment](./docs/Environment.md)
 
+### [How to Run Final](./docs/How-to-run-final.md)
+
 ### [02. File Based Routing and Navigation](./docs/Chapter02.md)
 
 ### [03. Next Components Server and Client](./docs/Chapter03.md)
