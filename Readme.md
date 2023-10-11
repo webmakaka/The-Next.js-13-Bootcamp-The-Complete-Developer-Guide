@@ -36,6 +36,8 @@ https://github.com/harblaith7/Next13-Udemy-Course/
 
 ### [10. Building an Availability System](./docs/Chapter10.md)
 
+### [11. Building the Scheduling System](./docs/Chapter11.md)
+
 <br/>
 
 ---
