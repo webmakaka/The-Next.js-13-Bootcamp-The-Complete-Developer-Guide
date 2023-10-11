@@ -33,6 +33,24 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/reserve?d
 
 <br/>
 
+### 107. Step 1 Validation
+
+<br/>
+
+http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/reserve?day=2023-10-11&time=14:00:00.000Z&partySize=8
+
+<br/>
+
+**response:**
+
+<br/>
+
+```
+{"errorMessage":"Restaurant is not open at that time"}
+```
+
+<br/>
+
 ---
 
 <br/>
