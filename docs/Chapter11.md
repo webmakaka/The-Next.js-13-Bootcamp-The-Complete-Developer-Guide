@@ -223,6 +223,18 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 114. Extracting the Query Params
+
+```
+$ npm install date-fns
+```
+
+<br/>
+
+![Application](/img/pic-ch11-img01.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
