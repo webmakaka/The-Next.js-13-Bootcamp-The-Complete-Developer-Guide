@@ -219,6 +219,10 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 <br/>
 
+### 113. Dynamically Rendering Data for the Reserve Header
+
+<br/>
+
 ---
 
 <br/>
