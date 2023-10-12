@@ -247,6 +247,18 @@ $ npm install date-fns
 
 <br/>
 
+### 118. Showing a Success State
+
+<br/>
+
+![Application](/img/pic-ch11-img02.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-ch11-img03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
