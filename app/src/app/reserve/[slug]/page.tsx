@@ -45,7 +45,11 @@ export default async function ReservePage({
           date={searchParams.date}
           partySize={searchParams.partySize}
         />
-        <ReserveForm />
+        <ReserveForm
+          slug={params.slug}
+          date={searchParams.date}
+          partySize={searchParams.partySize}
+        />
       </div>
     </div>
   );

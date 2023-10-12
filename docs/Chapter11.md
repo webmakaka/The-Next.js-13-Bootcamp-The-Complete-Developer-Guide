@@ -243,6 +243,10 @@ $ npm install date-fns
 
 <br/>
 
+### 117. Making a Reservation From the Client
+
+<br/>
+
 ---
 
 <br/>
