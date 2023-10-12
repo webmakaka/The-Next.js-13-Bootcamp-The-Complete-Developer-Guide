@@ -114,7 +114,7 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 **response:**
 
-```
+```json
 {
   "searchTimes": [
     "13:00:00.000Z",
@@ -152,7 +152,7 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 **response:**
 
-```
+```json
 {
   "searchTimes": [
     "13:00:00.000Z",
@@ -195,7 +195,7 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 **response:**
 
-```
+```json
 {
   "searchTimes": [
     "13:00:00.000Z",
@@ -261,7 +261,7 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 **response:**
 
-```
+```json
 {
   "searchTimes": [
     "13:00:00.000Z",
@@ -468,7 +468,7 @@ http://localhost:3000/api/restaurant/vivaan-fine-indian-cuisine-ottawa/availabil
 
 **response:**
 
-```
+```json
 ***
   "availabilities": [
     {

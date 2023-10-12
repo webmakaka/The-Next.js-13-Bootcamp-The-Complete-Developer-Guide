@@ -18,6 +18,8 @@ https://github.com/harblaith7/Next13-Udemy-Course/
 
 ### [Environment](./docs/Environment.md)
 
+### [How to Run Final](./docs/How-to-run-final.md)
+
 ### [02. File Based Routing and Navigation](./docs/Chapter02.md)
 
 ### [03. Next Components Server and Client](./docs/Chapter03.md)
@@ -35,6 +37,8 @@ https://github.com/harblaith7/Next13-Udemy-Course/
 ### [09. Global State With Context API](./docs/Chapter09.md)
 
 ### [10. Building an Availability System](./docs/Chapter10.md)
+
+### [11. Building the Scheduling System](./docs/Chapter11.md)
 
 <br/>
 

@@ -117,7 +117,7 @@ $ curl \
 
 **response:**
 
-```
+```json
 {
   "errorMessage": "Email is associated with another account"
 }
@@ -189,7 +189,7 @@ $ curl \
 
 **response:**
 
-```
+```json
 {
   "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Im1hcmxleUBleGFtcGxlLmNvbSIsImV4cCI6MTY5Njc5MzU4Mn0.I5s5UnNi3quXvvd6Kob28sNm6jX9NNxg-TGFV2FTdKs"
 }
@@ -221,7 +221,7 @@ $ curl \
 
 **response:**
 
-```
+```json
 {
   "user": {
     "id": 5,
