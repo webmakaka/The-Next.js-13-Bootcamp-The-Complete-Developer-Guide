@@ -1,5 +1,6 @@
 'use client';
 
+import useReservation from '@/app/hooks/useReservation';
 import { useEffect, useState } from 'react';
 
 export default function ReserveForm() {
@@ -13,6 +14,7 @@ export default function ReserveForm() {
   });
 
   const [disabled, setDisabled] = useState(true);
+  const { error, loading, createReservation } = useReservation();
 
   useEffect(() => {
     if (
